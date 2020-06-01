@@ -16,7 +16,7 @@
   </head>
   <body>
     <header>
-      <div class="head box">
+      <div class="head">
         <nav class="nav">
           <a href="" class="logo-link">
             <span class="web"> Web </span> Studio</a
@@ -31,55 +31,67 @@
             <li class="item"><a href="" class="links">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="nav-links list">
-          <li class="item">
+        <ul class="nav-links list ">
+          <li class="itema how">
             <a href="info@devstudio.com" class="links emeil"
-              >info@devstudio.com</a
+              >
+              <svg class="decore">
+                <use href="./img/sprite.svg#icon-email"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
-          <li class="itemsi">
-            <a href="+380961111111" class="links phon"> +38 096 111 11 11</a>
+          <li class="itemsi how">
+            <a href="+380961111111" class="links phon">
+              <svg class="decor">
+                <use href="./img/sprite.svg#icon-smartphone"></use>
+              </svg> +38 096 111 11 11</a>
           </li>
         </ul>
       </div>
     </header>
 <main>
-    <section class="abo">
-      <h1 class="tit">эффективные решения <br />для вашего бизнеса</h2>
-      <a href="" class="buti knop">Заказать услугу</a>
+  
+    <section >
+      <div class="gero">
+      <div class="abo">
+      <h1 class="tit">эффективные решения <br />для вашего бизнеса</h1>
+       <a href="" class="buti knop">Заказать услугу</a></div></div>
+      <!-- <img src="../img/Head.png" alt=""> -->
     </section>
 
-    <section class="box">
-      <div class="container">
+    <section class="container">
+      <div class="">
         <!-- <h2 class="title garant">Мы гарантируем</h2> -->
         <ul class="line-blok">
           <li class="doit">
-            <img class="pic" src="./img/antenna1.svg" alt="антена" />
-            <h2 class="title">Внимание к деталям</h2>
+            <div class="pic ant"></div>
+            <h3 class="title vel left">Внимание к деталям</h3>
             <p class="txt">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li class="doit">
-            <img class="pic" src="./img/clock1.svg" alt="часы" />
-            <h2 class="title vel">Пунктуальность</h2>
+           <div class="pic clock"></div>
+            <h3 class="title vel left">Пунктуальность</h3>
             <p class="txt">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li class="doit">
-            <img class="pic" src="./img/Vector.svg" alt="компютер" />
-            <h2 class="title vel">Планирование</h2>
+           <div class="pic vector"></div>
+
+            <h3 class="title vel left">Планирование</h3>
             <p class="txt">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li class="doit">
-            <img class="pic" src="./img/astronaut1.svg" alt="космонавт" />
-            <h2 class="title vel">Современные технологии </h2>
+            <div class="pic astro"></div>
+            <h3 class="title vel left no">Современные технологии </h3>
             <p class="txtt">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -89,30 +101,30 @@
       </div>
     </section>
 
-    <section class="container">
-      <div class="box">
+    <section class="container line">
+      <div class="">
         <h2 class="garant">Чем мы занимаемся</h2>
         <ul class="line-blok">
           <li class="doit-now">
-            <img src="./img/nout.jpg" alt="ноутбук" width="370" />
-            <h2 class="transp">Десктопные приложения</h2>
+            <img src="./img/nout.jpg" alt="ноутбук" width="370px" height="294px" />
+            <h3 class="transp">Десктопные приложения</h3>
           </li>
           <li class="doit-now">
-            <img src="./img/phone.jpg" alt="телефон" width="370" />
-            <h2 class="transp">Мобильные приложения</h2>
+            <img src="./img/phone.jpg" alt="телефон" width="370px" height="294px" />
+            <h3 class="transp">Мобильные приложения</h3>
           </li>
           <li class="doit-now">
-            <img src="./img/monic.jpg" alt="монитор" width="370" />
-            <h2 class="transp">Дизайнерские решения</h2>
+            <img src="./img/monic.jpg" alt="монитор" width="370px" height="294px" />
+            <h3 class="transp">Дизайнерские решения</h3>
           </li>
         </ul>
       </div>
     </section>
 
     
-    <section class="bk">
-    <div class="container">
-        <div class="box col">  
+    <section class="container bk">
+    <div class="">
+        <div class="col">  
           <h2 class="comand">Наша команда</h2>
           <ul class="line-blok">
             <li class="doit-now card">
@@ -121,28 +133,24 @@
               <p class="titles">Product Designer</p>
               <ul class="nav-lin">
                 <li class="social">
-                  <img src="./img/instagram2.svg" alt="Instagram" /><a
-                    href=""
-                    class="links"
-                  ></a>
+                  <svg class="soc">
+                    <use href="./img/sprite.svg#icon-instagram2"></use>
+                  </svg><a href=""></a>
                 </li>
                 <li class="social">
-                  <img src="./img/twit.svg" alt="Twitter" /><a
-                    href=""
-                    class="links"
-                  ></a>
+                  <svg class="soc">
+                    <use href="./img/sprite.svg#icon-twit"></use>
+                  </svg><a href=""></a>
                 </li>
                 <li class="social">
-                  <img src="./img/facebook1.svg" alt="Faceboock" /><a
-                    href=""
-                    class="links"
-                  ></a>
+                  <svg class="soc">
+                    <use href="./img/sprite.svg#icon-facebook1"></use>
+                  </svg><a href=""></a>
                 </li>
                 <li class="social">
-                  <img src="./img/linkedin1.svg" alt="Linken ID" /><a
-                    href=""
-                    class="links"
-                  ></a>
+                  <svg class="soc">
+                    <use href="./img/sprite.svg#icon-linkedin1"></use>
+                  </svg><a href=""></a>
                 </li>
               </ul>
             </li>
@@ -153,28 +161,24 @@
 
               <ul class="nav-lin">
                 <li class="social">
-                  <img src="./img/instagram2.svg" alt="Instagram" /><a
-                    href=""
-                    class="links"
-                  ></a>
+                  <svg class="soc">
+                    <use href="./img/sprite.svg#icon-instagram2"></use>
+                  </svg><a href=""></a>
                 </li>
                 <li class="social">
-                  <img src="./img/twit.svg" alt="Twitter" /><a
-                    href=""
-                    class="links"
-                  ></a>
+                  <svg class="soc">
+                    <use href="./img/sprite.svg#icon-twit"></use>
+                  </svg><a href=""></a>
                 </li>
                 <li class="social">
-                  <img src="./img/facebook1.svg" alt="Faceboock" /><a
-                    href=""
-                    class="links"
-                  ></a>
+                  <svg class="soc">
+                    <use href="./img/sprite.svg#icon-facebook1"></use>
+                  </svg><a href=""></a>
                 </li>
                 <li class="social">
-                  <img src="./img/linkedin1.svg" alt="Linken ID" /><a
-                    href=""
-                    class="links"
-                  ></a>
+                  <svg class="soc">
+                    <use href="./img/sprite.svg#icon-linkedin1"></use>
+                  </svg><a href=""></a>
                 </li>
               </ul>
             </li>
@@ -185,28 +189,24 @@
 
               <ul class="nav-lin">
                 <li class="social">
-                  <img src="./img/instagram2.svg" alt="Instagram" /><a
-                    href=""
-                    class="links"
-                  ></a>
+                  <svg class="soc">
+                    <use href="./img/sprite.svg#icon-instagram2"></use>
+                  </svg><a href=""></a>
                 </li>
                 <li class="social">
-                  <img src="./img/twit.svg" alt="Twitter" /><a
-                    href=""
-                    class="links"
-                  ></a>
+                  <svg class="soc">
+                    <use href="./img/sprite.svg#icon-twit"></use>
+                  </svg><a href=""></a>
                 </li>
                 <li class="social">
-                  <img src="./img/facebook1.svg" alt="Faceboock" /><a
-                    href=""
-                    class="links"
-                  ></a>
+                  <svg class="soc">
+                    <use href="./img/sprite.svg#icon-facebook1"></use>
+                  </svg><a href=""></a>
                 </li>
                 <li class="social">
-                  <img src="./img/linkedin1.svg" alt="Linken ID" /><a
-                    href=""
-                    class="links"
-                  ></a>
+                  <svg class="soc">
+                    <use href="./img/sprite.svg#icon-linkedin1"></use>
+                  </svg><a href=""></a>
                 </li>
               </ul>
             </li>
@@ -217,28 +217,24 @@
 
               <ul class="nav-lin">
                 <li class="social">
-                  <img src="./img/instagram2.svg" alt="Instagram" /><a
-                    href=""
-                    class="links"
-                  ></a>
+                  <svg class="soc">
+                    <use href="./img/sprite.svg#icon-instagram2"></use>
+                  </svg><a href=""></a>
                 </li>
                 <li class="social">
-                  <img src="./img/twit.svg" alt="Twitter" /><a
-                    href=""
-                    class="links"
-                  ></a>
+                  <svg class="soc">
+                    <use href="./img/sprite.svg#icon-twit"></use>
+                  </svg><a href=""></a>
                 </li>
                 <li class="social">
-                  <img src="./img/facebook1.svg" alt="Faceboock" /><a
-                    href=""
-                    class="links"
-                  ></a>
+                  <svg class="soc">
+                    <use href="./img/sprite.svg#icon-facebook1"></use>
+                  </svg><a href=""></a>
                 </li>
                 <li class="social">
-                  <img src="./img/linkedin1.svg" alt="Linken ID" /><a
-                    href=""
-                    class="links"
-                  ></a>
+                  <svg class="soc">
+                    <use href="./img/sprite.svg#icon-linkedin1"></use>
+                  </svg><a href=""></a>
                 </li>
               </ul>
             </li>
@@ -249,27 +245,39 @@
    
 
     <section class="container">
-      <div class="box">
-        <h3 class="garant">Постоянные клиенты</h3>
+      <div class="">
+        <h2 class="garant">Постоянные клиенты</h2>
         <ul class="line-blok">
           <li class="client">
-            <img class="cent" src="./img/logo1.svg" alt="" />
-          </li>
-          <li class="client">
-            <img class="cent" src="./img/logo2.svg" alt="" />
-          </li>
-          <li class="client">
-            <img class="cent" src="./img/logo3.svg" alt="" />
-          </li>
-          <li class="client">
-            <img class="cent" src="./img/logo4.svg" alt="" />
-          </li>
-          <li class="client">
-            <img class="cent" src="./img/logo5.svg" alt="" />
-          </li>
-          <li class="client">
-            <img class="cent" src="./img/logo6.svg" alt="" />
-          </li>
+            <svg class="cent ho">
+              <use href="./img/sprite.svg#icon-logo1"></use>
+            </svg>
+           </li>
+           <li class="client">
+            <svg class="cent ho">
+              <use href="./img/sprite.svg#icon-logo2"></use>
+            </svg>
+           </li>
+           <li class="client">
+            <svg class="cent ho">
+              <use href="./img/sprite.svg#icon-logo3"></use>
+            </svg>
+           </li>
+           <li class="client">
+            <svg class="cent ho">
+              <use href="./img/sprite.svg#icon-logo4"></use>
+            </svg>
+           </li>
+           <li class="client">
+            <svg class="cent ho">
+              <use href="./img/sprite.svg#icon-logo5"></use>
+            </svg>
+           </li>
+           <li class="client">
+            <svg class="cent ho">
+              <use href="./img/sprite.svg#icon-logo6"></use>
+            </svg>
+           </li>
         </ul>
       </div>
     </section>
@@ -289,35 +297,31 @@
         <div class="one">
           <h3 class="down vel">присоединяйтесь</h3>
           <ul class="nav-lin">
-            <li class="social">
-              <img src="./img/instagram2.svg" alt="Instagram" /><a
-                href=""
-                class="links"
-              ></a>
+            <li class="socia">
+              <svg class="soc">
+                <use href="./img/sprite.svg#icon-instagram2"></use>
+              </svg><a href=""></a>
             </li>
-            <li class="social">
-              <img src="./img/twit.svg" alt="Twitter" /><a
-                href=""
-                class="links"
-              ></a>
+            <li class="socia">
+              <svg class="soc">
+                <use href="./img/sprite.svg#icon-twit"></use>
+              </svg><a href=""></a>
             </li>
-            <li class="social">
-              <img src="./img/facebook1.svg" alt="Faceboock" /><a
-                href=""
-                class="links"
-              ></a>
+            <li class="socia">
+              <svg class="soc">
+                <use href="./img/sprite.svg#icon-facebook1"></use>
+              </svg><a href=""></a>
             </li>
-            <li class="social">
-              <img src="./img/linkedin1.svg" alt="Linken ID" /><a
-                href=""
-                class="links"
-              ></a>
+            <li class="socia">
+              <svg class="soc">
+                <use href="./img/sprite.svg#icon-linkedin1"></use>
+              </svg><a href=""></a>
             </li>
           </ul>
         </div>
         <div class="two">
-          <h4 class="down vel">Подпишитесь на рассылку</h4>
-          <h4 class="buti">Подписаться</h4>
+          <h4 class="down left">Подпишитесь на рассылку</h4>
+          <h4 class="fly">Подписаться</h4>
         </div>
       </div>
       <p class="stu">2020 | Developed by GoIT Students</p>
