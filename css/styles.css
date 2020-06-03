@@ -11,6 +11,9 @@ li {
   text-decoration: none;
   margin: 0;
 }
+div{
+  margin: 0;
+}
 /* ul{
   margin: 0;
   padding: 0;
@@ -321,6 +324,11 @@ line-height: 60px;
 .no{
   margin-right: 0px;
   
+}
+.lhm{
+  margin-right: 0;
+  font-size: 16px;
+line-height: 19px;
 }
 .vel{
   text-transform: uppercase;
